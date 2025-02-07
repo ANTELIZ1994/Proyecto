@@ -5,7 +5,7 @@ async function API(){
   try{
 
     const resultsDiv=document.getElementById('resultado');
-    console.resultado="el pais que quiero conocer es" + resultado;
+    
 
     const response=await fetch(apiURL);
     if(!response.ok){
